@@ -11,20 +11,31 @@ Now suppose you want to draw *n* random samples from the population (of mean $\m
 $$
 \bar{X} = \frac{1}{n} \sum_{i=1}^{n} X_i
 $$
+
 Taking advantage of the linearity of expectations, we get:
+
 $$
+\begin{split}
 E(\bar{X}) = E(\frac{X_1+X_2+... +X_n}{n})\\
 = \frac{1}{n}E(X_1 + X_2 + ... X_n) \\
 = \frac{1}{n}[E(X_1) + E(X_2) + ... E(X_n)]\\
 = \frac{1}{n}(\mu_1 + \mu_2 + ... + \mu_n) \\
 = \frac{n\mu}{n} = \mu
+\end{split}
 $$
+
+
 Similarly, the variance can be found by:
+
 $$
+\begin{split}
 Var(\bar{X}) = Var(\frac{X_1 + X_2 + ... X_n}{n}) \\
 = \frac{1}{n^2}(Var(X_1 + X_2 + ... X_n)) \\
 = \underbrace{\frac{1}{n^2}[Var(X_1) + Var(X_2) + ... Var(X_n)]}_{\text{Assuming i.i.d.}} \\
 = \frac{1}{n}[\sigma_1^2 + \sigma_2^2 + ... \sigma_n^2]\\
 = \frac{1}{n^2}[n\sigma^2] = \frac{\sigma^2}{n}
+\end{split}
 $$
 
+### Using Moment Generating Function
+See [Sampling Distribution of Sample Mean](https://online.stat.psu.edu/stat414/lesson/26/26.2) from STAT414 (Penn State)
