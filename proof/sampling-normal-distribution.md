@@ -5,4 +5,26 @@ $$
 X \sim N(\mu, \sigma^2)
 $$
 
-Now suppose you want to draw random samples from the population (of  
+Now suppose you want to draw *n* random samples from the population (of mean $\mu$ and variance $\sigma^2$) and find the sampling distribution. 
+
+### Using Expectations
+$$
+\bar{X} = \frac{1}{n} \sum_{i=1}^{n} X_i
+$$
+Taking advantage of the linearity of expectations, we get:
+$$
+E(\bar{X}) = E(\frac{X_1+X_2+... +X_n}{n})\\
+= \frac{1}{n}E(X_1 + X_2 + ... X_n) \\
+= \frac{1}{n}[E(X_1) + E(X_2) + ... E(X_n)]\\
+= \frac{1}{n}(\mu_1 + \mu_2 + ... + \mu_n) \\
+= \frac{n\mu}{n} = \mu
+$$
+Similarly, the variance can be found by:
+$$
+Var(\bar{X}) = Var(\frac{X_1 + X_2 + ... X_n}{n}) \\
+= \frac{1}{n^2}(Var(X_1 + X_2 + ... X_n)) \\
+= \underbrace{\frac{1}{n^2}[Var(X_1) + Var(X_2) + ... Var(X_n)]}_{\text{Assuming i.i.d.}} \\
+= \frac{1}{n}[\sigma_1^2 + \sigma_2^2 + ... \sigma_n^2]\\
+= \frac{1}{n^2}[n\sigma^2] = \frac{\sigma^2}{n}
+$$
+
