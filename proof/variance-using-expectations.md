@@ -15,3 +15,19 @@ Note that we could also have defined $Var(X)$ as $E[(X-E(X))^2]$. The problem he
 dealing with squares are often complicated. We can separate $X$ and $E(X)$ from the squaring operation
 as follows:
 
+$$
+\begin{split}
+Var(X) = E[(X-\mu)^2] \\
+= E[X^2-2X\mu+\mu^2] \\
+= E[X^2]-2E[X]\mu + \underbrace{E[\mu^2]}_{E[c] = c} \\
+= E[X^2]-2\mu^2+\mu^2 \\
+= E[X^2]-\mu^2
+\end{split}
+$$
+
+We can re-write the last line as:
+
+$$
+Var(X) = E[X^2]-E[X]^2
+$$
+
