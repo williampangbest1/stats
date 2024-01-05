@@ -2,5 +2,5 @@
 The moment generating function is defined as:
 
 $$
-M_z(t) = E[e^(tZ)]
+M_z(t) = E[e^{tZ}]
 $$
