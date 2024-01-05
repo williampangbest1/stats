@@ -29,10 +29,10 @@ Knowing that $Z = \frac{x-\mu}{\sigma}$ then $X = \mu + \sigma Z$
 
 $$
 \begin{split}
-M_X(t) = E[e^{tX}] = E[e^{t\mu} \cdot e^{t\mu Z}] \\
-= e^{\mu t}\cdot E[e^{\mu t Z}] \\
+M_X(t) = E[e^{tX}] = E[e^{t\mu} \cdot e^{t\sigma Z}] \\
+= e^{\mu t}\cdot E[e^{\sigma t Z}] \\
 = e^{\mu t} \cdot M_{Z}(\sigma t) \\
-= e^{\mu t} e^{\frac{\sigma^2 t^2}{2}}
+= e^{\mu t} e^{\frac{\sigma^2 t^2}{2}} = e^{\mu t + \frac{\sigma^2 t^2}{2}}
 \end{split}
 $$
 
