@@ -36,6 +36,3 @@ Var(\bar{X}) = Var(\frac{X_1 + X_2 + ... X_n}{n}) \\
 = \frac{1}{n^2}[n\sigma^2] = \frac{\sigma^2}{n}
 \end{split}
 $$
-
-### Using Moment Generating Function
-See [Sampling Distribution of Sample Mean](https://online.stat.psu.edu/stat414/lesson/26/26.2) from STAT414 (Penn State)
