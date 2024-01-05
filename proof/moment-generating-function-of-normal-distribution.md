@@ -23,7 +23,7 @@ M_Z(t) = \int \frac{1}{\sqrt{2 \pi}}e^{-\frac{z^2+2tz}{2}}dz = \int \frac{1}{\sq
 \end{split}
 $$
 
-Now further suppose that we want the non-standard normal distribution, i.e., $X \sim N(\mu, \sigma^2)$.
+Now further suppose that we want the non-standard normal distribution, i.e., $X \sim N(\mu, \sigma^2)$
 
 Knowing that $Z = \frac{x-\mu}{\sigma}$ then $X = \mu + \sigma Z$
 
