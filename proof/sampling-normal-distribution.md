@@ -16,9 +16,9 @@ Taking advantage of the linearity of expectations, we get:
 
 $$
 \begin{split}
-E(\bar{X}) = E(\frac{X_1+X_2+... +X_n}{n})\\
-= \frac{1}{n}E(X_1 + X_2 + ... X_n) \\
-= \frac{1}{n}[E(X_1) + E(X_2) + ... E(X_n)]\\
+\mathbb{E} (\bar{X}) = \mathbb{E} (\frac{X_1+X_2+... +X_n}{n})\\
+= \frac{1}{n}\mathbb{E} (X_1 + X_2 + ... X_n) \\
+= \frac{1}{n}[\mathbb{E} (X_1) + \mathbb{E} (X_2) + ... \mathbb{E} (X_n)]\\
 = \frac{1}{n}(\mu_1 + \mu_2 + ... + \mu_n) \\
 = \frac{n\mu}{n} = \mu
 \end{split}
