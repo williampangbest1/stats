@@ -11,7 +11,17 @@ We can also partition the covariance into expected values:
 
 $$
 \begin{split}
-Cov(X,Y) = E(XY-X\mu_Y-Y\mu_X+\mu_X\mu_Y) \\
-= E(XY) - \underbrace{E(X)\mu_Y - E(Y)\mu_X}_{E(X) = \mu_X \text{ and } E(Y) = \mu_Y} + \mu_X\mu_Y
+Cov(X,Y) 
+&= E(XY-X\mu_Y-Y\mu_X+\mu_X\mu_Y) \\
+&= E(XY) - \underbrace{E(X)\mu_Y - E(Y)\mu_X}_{E(X) = \mu_X \text{ and } E(Y) = \mu_Y} + \mu_X\mu_Y \\
+&= E(XY) - \mu_X\mu_Y \\
+&= E(XY) - E(X)E(Y)
 \end{split}
+$$
+
+The correlation coefficient can also be defined in terms of covariance:
+
+$$
+\rho = \frac{Cov(X,Y)}{\sigma_X \sigma_Y}
+= \frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}
 $$
