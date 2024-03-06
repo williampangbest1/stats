@@ -1,1 +1,17 @@
+## Covariance and Correlation
+The definition of covariance is defined as:
 
+$$
+Cov(X,Y) = E[(X-\mu_x)(Y-\mu_y)]
+$$
+
+In other words, the covariance tells us the average value of the product of the deviation of X from its mean and Y from its mean.
+
+We can also partition the covariance into expected values:
+
+$$
+\begin{split}
+Cov(X,Y) = E(XY-X\mu_Y-Y\mu_X+\mu_X\mu_Y) \\
+= E(XY) - \underbrace{E(X)\mu_Y - E(Y)\mu_X}_{E(X) = \mu_X \text{ and } E(Y) = \mu_Y} + \mu_X\mu_Y
+\end{split}
+$$
