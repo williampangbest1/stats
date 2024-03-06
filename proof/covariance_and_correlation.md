@@ -25,3 +25,6 @@ $$
 \rho = \frac{Cov(X,Y)}{\sigma_X \sigma_Y}
 = \frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}
 $$
+
+**References**
+- The Book of Statistical Proofs: [Partition of covariance into expected values](https://statproofbook.github.io/P/cov-mean)
