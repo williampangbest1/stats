@@ -36,6 +36,13 @@ M_X(t) = \mathbb{E} [e^{tX}] = \mathbb{E} [e^{t\mu} \cdot e^{t\sigma Z}] \\
 \end{split}
 $$
 
+**Collary** 
+
+From above, 
+$$X \sim N(\mu, \sigma^2)$$
+Thus:
+$$aX \sim N(a\mu, a^2\sigma^2)$$
+
 
 **Reference**
 - [Lecture 2](https://web.stanford.edu/class/archive/stats/stats200/stats200.1172/Lecture02.pdf), Statistics 200: Introduction to Statistical Inference (Zhou Fan, Stanford University, Autumn 2016)
