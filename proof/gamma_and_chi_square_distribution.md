@@ -4,6 +4,23 @@ Suppose $X \sim \text{Gamma}(\alpha, \beta)$ for $\alpha, \beta > 0 $:
 
 $$
 \begin{split}
-M_X(t) = E[e^{tX}] = \int_{0}^{\infty}e^{tx}\frac{\beta^{\alpha}}{\Gamma(\alpha)}
+M_X(t) 
+&= E[e^{tX}] \\
+&= \int_{0}^{\infty}e^{tx}\frac{\beta^{\alpha}}{\Gamma(\alpha)}x^{\alpha-1}e^{-\beta x}dx \\
+&= \int_{0}^{\infty}\frac{\beta^{\alpha}}{\Gamma(\alpha)}x^{\alpha-1}e^{(t-\beta) x}dx \\
 \end{split}
 $$
+
+If $t > \beta$:
+
+$$
+\lim_{x \to \infty} x^{\alpha-1}e^{(t-\beta)x} = \infty
+$$
+
+If $t = \beta$:
+
+$$
+\int_{0}^{\infty}x^{\alpha-1}dx = \frac{1}{\alpha}x^{\alpha}\bigg|_0^\infty = \infty
+$$
+
+If $t < \beta$:
