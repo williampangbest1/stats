@@ -26,5 +26,11 @@ $$
 = \frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}
 $$
 
+Also note that the correlation is invariant to rescaling, i.e.:
+
+$$
+corr(aX,bY) = corr(X,Y) 
+$$
+
 **References**
 - The Book of Statistical Proofs: [Partition of covariance into expected values](https://statproofbook.github.io/P/cov-mean)
