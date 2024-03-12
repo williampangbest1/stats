@@ -23,4 +23,5 @@ $$
 \int_{0}^{\infty}x^{\alpha-1}dx = \frac{1}{\alpha}x^{\alpha}\bigg|_0^\infty = \infty
 $$
 
-If $t < \beta$:
+For $t < \beta$, we want to isolate the PDF of the Gamma($\alpha, \beta-t$) distribution:
+
