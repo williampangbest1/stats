@@ -25,3 +25,4 @@ $$
 
 For $t < \beta$, we want to isolate the PDF of the Gamma($\alpha, \beta-t$) distribution:
 
+
