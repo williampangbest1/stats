@@ -82,7 +82,7 @@ $$
 \end{split}
 $$
 
-Hence:
+And:
 
 $$
 \begin{split}
