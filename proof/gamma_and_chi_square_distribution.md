@@ -52,7 +52,7 @@ $$
 
 ### Gamma Distribution with 1 Degree of Freedom
 
-The Chi-squared distribution with 1 degree of freedom is actually a special form of the Gamma distribution. First, let's suppose that $X_1, ... , X_n \stackrel{IID}{\sim} N(0, 1)$, and we want to derive the distribution of the statistic $X_1^2 + ... + X_n^2$. 
+The Chi-squared distribution with 1 degree of freedom is the Gamma($\frac{1}{2}, \frac{1}{2}$) distribution. First, let's suppose that $X_1, ... , X_n \stackrel{IID}{\sim} N(0, 1)$, and we want to derive the distribution of the statistic $X_1^2 + ... + X_n^2$. 
 
 By independence of $X_1^2, ... , X_n^2$,
 
