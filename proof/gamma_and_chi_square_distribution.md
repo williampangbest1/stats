@@ -25,4 +25,12 @@ $$
 
 For $t < \beta$, we want to isolate the PDF of the Gamma($\alpha, \beta-t$) distribution:
 
+$$
+\begin{split}
+M_X(t) 
+&= \int_{0}^{\infty}\frac{(\beta - t)^{\alpha}}{\Gamma(\alpha)}\cdot \frac{\beta^{\alpha}}{(\beta - t)^{\alpha}}x^{\alpha-1}e^{-(\beta-t)x}dx \\
+&= \frac{\beta^{\alpha}}{(\beta - t)^{\alpha}} \underbrace{\int_{0}^{\infty}\frac{(\beta - t)^{\alpha}}{\Gamma(\alpha)}x^{\alpha-1}e^{-(\beta-t)x}dx}_{=1}
+\end{split}
+$$
+
 
