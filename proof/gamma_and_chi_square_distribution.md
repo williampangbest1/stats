@@ -49,3 +49,19 @@ M_X(t) = \frac{\beta^{\alpha}}{(\beta-t)^{\alpha}}
 &= (1-\frac{1}{\beta}t)^{-\alpha}
 \end{split}
 $$
+
+### Gamma Distribution with 1 Degree of Freedom
+
+The Chi-squared distribution with 1 degree of freedom is actually a special form of the Gamma distribution. First, let's suppose that $X_1, ... , X_n \stackrel{IID}{\sim} N(0, 1)$, and we want to derive the distribution of the statistic $X_1^2 + ... + X_n^2$. 
+
+By independence of $X_1^2, ... , X_n^2$,
+
+$$
+M_{X_1^2 + ... + X_n^2}(t) = M_{X_1^2} \times ... \times M_{X_n^2}
+$$
+
+Since they are independent, we compute each $X_i$ its MGF:
+
+$$
+M_{X_i^2}(t) = \mathbb{E}[e^{tX_i^2}] = \int e^{tx^2} \frac{1}{\sqrt{2\pi}}
+$$
