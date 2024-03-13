@@ -98,4 +98,6 @@ M_{X_i^2}(t) = \frac{1}{\sqrt{1-2t}} \underbrace{\int \sqrt{\frac{1-2t}{2 \pi}}e
 \end{split}
 $$  
 
+Thus, for $M_{X_i^2}(t)$ when $t \geq \frac{1}{2}, M_{X_i^2}(t) = \infty$, and when $t<\frac{1}{2}$, $M_{X_i^2}(t) = (1-2t)^{-1/2}$
+
 
