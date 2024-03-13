@@ -33,4 +33,19 @@ M_X(t)
 \end{split}
 $$
 
+Thus, if $t \geq \beta$:
 
+$$
+M_X(t) = \infty
+$$
+
+if $t < \beta$:
+
+$$
+\begin{split}
+M_X(t) = \frac{\beta^{\alpha}}{(\beta-t)^{\alpha}}
+&= (\frac{\beta}{\beta-t})^{\alpha}
+&= (\frac{\beta-t}{\beta})^{-\alpha}
+&= (1-\frac{1}{\beta}t)^{-\alpha}
+\end{split}
+$$
