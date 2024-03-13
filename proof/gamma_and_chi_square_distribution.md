@@ -63,5 +63,7 @@ $$
 Since they are independent, we compute each $X_i$ its MGF:
 
 $$
-M_{X_i^2}(t) = \mathbb{E}[e^{tX_i^2}] = \int e^{tx^2} \frac{1}{\sqrt{2\pi}}
+M_{X_i^2}(t) = \mathbb{E}[e^{tX_i^2}] = \int e^{tx^2} \frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}dx = \int \frac{1}{\sqrt{2\pi}}e^{(t-\frac{1}{2})x^2}dx
 $$
+
+As with before, when $t /eq /frac{1}{2}$, then $M_{X_i^2}(t) = \infty$
