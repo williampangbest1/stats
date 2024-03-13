@@ -74,10 +74,19 @@ M_{X_i^2}(t) = \int \frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}(1-2t)x^2}dx
 \end{split}
 $$  
 
-Note that this looks similar to the normal distribution. Recall that the normal distribution has a PMF of:
+Note that this looks similar to the normal distribution. Recall that the normal distribution has a PDF of:
 
 $$
 \begin{split}
-N(\mu, \sigma^2) = \frac{1}{\sigma\sqrt{2\pi}}
+\mathcal{N}(\mu, \sigma^2) = \frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{1}{2} \frac{(x-\mu)^2}{\sigma^2}}
 \end{split}
 $$
+
+Hence:
+
+$$
+\begin{split}
+\mathcal{N}(0, \frac{1}{1-2t}) = \sqrt{\frac{1-2t}{2\pi}}e^{-\frac{1}{2} (1-2t)x^2}
+\end{split}
+$$
+
