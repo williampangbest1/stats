@@ -82,11 +82,20 @@ $$
 \end{split}
 $$
 
-And:
+So:
 
 $$
 \begin{split}
 \mathcal{N}(0, \frac{1}{1-2t}) = \sqrt{\frac{1-2t}{2\pi}}e^{-\frac{1}{2} (1-2t)x^2}
 \end{split}
 $$
+
+We can now try and "fit" $\mathcal{N}(0, \frac{1}{1-2t})$ into $M_{X_i^2}(t)$, resulting in:
+
+$$
+\begin{split}
+M_{X_i^2}(t) = \frac{1}{\sqrt{1-2t}} \underbrace{\int \sqrt{\frac{1-2t}{2 \pi}}e^{-\frac{1}{2} (1-2t)x^2}dx}_{=1}
+\end{split}
+$$  
+
 
