@@ -100,4 +100,14 @@ $$
 
 Thus, for $M_{X_i^2}(t)$ when $t \geq \frac{1}{2}, M_{X_i^2}(t) = \infty$, and when $t<\frac{1}{2}$, $M_{X_i^2}(t) = (1-2t)^{-1/2}$
 
+Then for the sampling distribution:
+
+$$
+\begin{split}
+M_{X_1^2 + ... + X_n^2}(t) = M_{X_1^2} \times ... \times M_{X_n^2} \\
+&\text{for } t \geq \frac{1}{2} = \infty \\
+&\text{for } t < \frac{1}{2} = (1-2t)^{-n/2}
+\end{split}
+$$
+
 
