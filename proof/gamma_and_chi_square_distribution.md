@@ -110,4 +110,6 @@ M_{X_1^2 + ... + X_n^2}(t) = M_{X_1^2} \times ... \times M_{X_n^2} \\
 \end{split}
 $$
 
-
+**Reference**
+- [Lecture 2](https://web.stanford.edu/class/archive/stats/stats200/stats200.1172/Lecture02.pdf), Statistics 200: Introduction to Statistical Inference (Zhou Fan, Stanford University, Autumn 2016)
+- [Lecture 3](https://web.stanford.edu/class/archive/stats/stats200/stats200.1172/Lecture03.pdf), Statistics 200: Introduction to Statistical Inference (Zhou Fan, Stanford University, Autumn 2016)
