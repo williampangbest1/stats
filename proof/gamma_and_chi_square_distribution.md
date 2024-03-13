@@ -66,4 +66,18 @@ $$
 M_{X_i^2}(t) = \mathbb{E}[e^{tX_i^2}] = \int e^{tx^2} \frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}dx = \int \frac{1}{\sqrt{2\pi}}e^{(t-\frac{1}{2})x^2}dx
 $$
 
-As with before, when $t /eq /frac{1}{2}$, then $M_{X_i^2}(t) = \infty$
+As with before, when $t \geq \frac{1}{2}$, then $M_{X_i^2}(t) = \infty$. When $t < \frac{1}{2}$:
+
+$$
+\begin{split}
+M_{X_i^2}(t) = \int \frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}(1-2t)x^2}dx
+\end{split}
+$$  
+
+Note that this looks similar to the normal distribution. Recall that the normal distribution has a PMF of:
+
+$$
+\begin{split}
+N(\mu, \sigma^2) = \frac{1}{\sigma\sqrt{2\pi}}
+\end{split}
+$$
